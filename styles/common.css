@@ -1,0 +1,12 @@
+/* Common styles */
+body{
+    margin: 0;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    background: linear-gradient(140deg, #444857 0%, #131417 65%);
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+}

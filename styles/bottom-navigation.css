@@ -1,0 +1,20 @@
+.bottom-navigation-wrapper {
+    color: white;
+    background-color: #444857;
+    /* flexbox container*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+  .bottom-navigation-wrapper > .bottom-nav {
+    text-align: center;
+    border: 2px solid #868686;
+    padding: 20px 0;
+    font-size: 1.5em;
+  }
+  
+  .bottom-navigation-wrapper > .bottom-nav::before {
+    content: "CodePen for ";
+    font-size: 1.2rem;
+    
+  }

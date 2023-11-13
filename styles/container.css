@@ -1,0 +1,85 @@
+.main-container-wrapper {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 10px;
+}
+
+.main-container-wrapper > .left-column {
+    padding: 20px 100px 0px 70px;
+    font-size: 1.75em;
+    color: white;
+ }
+
+ .main-container-wrapper > .left-column > .light p:nth-child(1) {
+    font-size: 2.25rem;
+ }
+
+ .main-container-wrapper > .left-column > .light p:nth-child(2) {
+   color:lightgrey;
+   line-height: 1.5em;
+}
+
+ .main-container-wrapper > .left-column > .options {
+    display: flex;
+    column-gap: 10px;
+    padding-top: 20px;
+ }
+ 
+ .main-container-wrapper > .left-column > .options > .green-button {
+    background-color: #47cf73;
+    width: 250px;
+    border-radius: 3px;
+    padding: 15px 20px;
+ }
+
+ .main-container-wrapper > .left-column > .options > .green-button:hover {
+   background-color: #248c46;
+}
+
+.main-container-wrapper > .left-column > .options > .green-button a {
+   color:#131417;
+}
+
+.main-container-wrapper > .left-column > .options > .green-button a:active {
+   color:#131417;
+}
+
+ .main-container-wrapper > .left-column > .options > .dark-button {
+    background-color: #131417;
+    width: 170px;
+    border-radius: 3px;
+    padding: 15px 20px;
+ }
+
+ .main-container-wrapper > .left-column > .options > .dark-button:hover {
+   background-color: #5a5f73;
+}
+
+.main-container-wrapper > .left-column > .options > .dark-button a {
+   color: white;
+}
+
+.main-container-wrapper > .left-column > .options > .dark-button a:active {
+   color: white;
+}
+
+ /* Right column styles*/
+
+ .main-container-wrapper > .right-column {
+   padding-top: 30px;
+}
+
+ .main-container-wrapper > .right-column p {
+    padding-left: 20px;
+    font-size: 1.3em;
+    color: white;
+ }
+
+.main-container-wrapper > .right-column > .image-cp {
+    margin-top: -10px;
+}
+
+.main-container-wrapper > .right-column > .image-cp img {
+    width: 550px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5);
+}

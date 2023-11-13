@@ -1,0 +1,103 @@
+/* common top nav styles */
+.top-navigation-wrapper {
+    background-color: #131417;
+    color: white;
+    /* flexbox container*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5px 15px 20px;
+    font-size: 1.1em;
+}
+
+/* logo */
+.top-navigation-wrapper > .logo img {
+    width: 200px;
+    vertical-align: bottom;
+}
+
+
+/* nav bar */
+
+.top-navigation-wrapper > .nav-bar {
+    display: flex;
+    flex-direction: column;
+    padding-right: 60px;
+}
+
+.top-navigation-wrapper > .nav-bar > .nav-bar-top {
+    color: yellow;
+    text-transform: uppercase;
+    padding: 0 5px;
+    letter-spacing: -1px;
+    font-size: 90%;
+}
+
+.top-navigation-wrapper > .nav-bar >.nav-bar-sub {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-navigation-wrapper > .nav-bar >.nav-bar-sub a {
+    color: white;
+    padding: 0 6px;
+}
+
+.top-navigation-wrapper > .nav-bar >.nav-bar-sub > #spark {
+    color: gray;
+    margin: 0 20px;
+}
+
+.top-navigation-wrapper > .nav-bar >.nav-bar-sub > #spark::after {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f078";
+    padding-left: 10px;
+}
+
+/* right nav bar */
+
+.top-navigation-wrapper > .nav-bar-right {
+    display: flex;
+    align-items: center;
+}
+
+.top-navigation-wrapper > .nav-bar-right > .grey {
+    background-color: #444857;
+    border-radius: 3px;
+    margin: 1px 10px 1px 0;
+    padding: 12px 20px;
+    text-align: center;
+}
+
+.top-navigation-wrapper > .nav-bar-right > .grey:hover {
+    background-color: #5a5f73;
+}
+
+.top-navigation-wrapper > .nav-bar-right > .grey a {
+    color: white;
+}
+
+.top-navigation-wrapper > .nav-bar-right > .grey a:hover {
+    color: white;
+}
+
+.top-navigation-wrapper > .nav-bar-right > .grey a:active {
+    color: white;
+}
+
+.top-navigation-wrapper > .nav-bar-right > .grey > #create::after {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f078";
+    padding-left: 10px;
+    color: #47cf73;
+}
+
+.top-navigation-wrapper > .nav-bar-right i {
+    color: #717790;
+    width: 100%;    
+    margin: 1px 15px 1px 10px;
+}
+
+
